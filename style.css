@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 80%; 
+   
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    
+}
+.petitLogo img{
+    width: 100px;
+
+}
+.petitLogo{
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    padding:10px;
+} 
+.contenaire{
+    display: flex;
+    height: 116.4vh;
+
+}
+.profil{
+    width: 180%;
+    width: 732px;
+    height: 938px;
+    background-image: url("img/WhatsApp\ Image\ 2022-11-21\ à\ 13.28.15.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.languagePhoto img{
+    width: 100px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white
+}
+.grandLogo img{
+    width: 400px;
+   
+}
+.contact{
+    text-decoration: none;
+    padding:10px;
+    margin-bottom: 50px;
+}
