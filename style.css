@@ -109,7 +109,7 @@ article{
 
 }
 .lien img{
-    padding: 20px;
+    padding: 10px;
 }
 article p{
     margin: auto;
@@ -150,7 +150,7 @@ article h2{
     text-align: center;
 }
 #git{
-    
+
     width: 50px;
 }
 @media screen and (max-width: 1024px){
