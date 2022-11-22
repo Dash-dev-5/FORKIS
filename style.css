@@ -4,7 +4,7 @@
 }
 body{
     width: 80%; 
-   
+   font-family: inter;
     margin: auto;
 }
 header{
@@ -16,10 +16,14 @@ header{
 }
 .petitLogo img{
     width: 100px;
+    background-color: black;
+    margin-right: 10px;
+
 
 }
 .petitLogo{
-    background-color: black;
+    display: flex;
+    align-items: center;
 }
 nav ul{
     list-style-type: none;
@@ -29,37 +33,113 @@ nav ul{
 nav ul a{
     text-decoration: none;
     padding:10px;
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
 } 
+nav ul a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+  
 .contenaire{
     display: flex;
     height: 116.4vh;
 
 }
-.profil{
+.profil img{
+    width:567px ;
+    /* height: 938px; */
+    
+}
+/* .profil{
     width: 180%;
     width: 732px;
     height: 938px;
     background-image: url("img/WhatsApp\ Image\ 2022-11-21\ à\ 13.28.15.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+} */
+.languagePhoto{
+    /* padding-left: 5px; */
+    
 }
 .languagePhoto img{
-    width: 100px;
+    width: 70px;
 }
 article{
+    width: 548px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: black;
     color:white
 }
 .grandLogo img{
     width: 400px;
+    margin-top: 0ch;
+    padding-top: 0px;
    
 }
+.languagePhoto .petitLogoimg5{
+    width: 100px;
+}
 .contact{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: bold;
     text-decoration: none;
     padding:10px;
     margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.contactc{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+    margin-bottom: 50px;
+    margin-top: 7px;
+
+}
+.lien img{
+    padding: 20px;
+}
+article p{
+    margin: auto;
+    text-align: center;
+}
+article .h22{
+    width: 96%;
+    
+    border-bottom: 1px solid white;
+}
+.work img{
+    
+    width: 100px;
+}
+.workKn,.workForkid,.workScorpion{
+    display: flex;
+}
+.workKn p,.workForkid p,.workScorpion p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.work{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contactLogo img{
+    width: 30px;
+    margin-right: 40px;
+}
+.contactLogo{
+
+    display: flex;
+    margin-top: 30px;
+    /* align-items: center; */
 }
