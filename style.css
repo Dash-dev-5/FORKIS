@@ -149,6 +149,9 @@ article .h22{
 article h2{
     text-align: center;
 }
+#git{
+    width: 50px;
+}
 @media screen and (max-width: 1024px){
     body{
         width: 100%;
