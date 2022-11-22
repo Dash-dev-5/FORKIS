@@ -44,7 +44,8 @@ nav ul a:hover{
   
 .contenaire{
     display: flex;
-    height: 116.4vh;
+    height: 119.4vh;
+    background-color: black;
 
 }
 .profil img{
@@ -64,6 +65,9 @@ nav ul a:hover{
     /* padding-left: 5px; */
     
 }
+.menu{
+    display: none;
+}
 .languagePhoto img{
     width: 70px;
 }
@@ -77,13 +81,12 @@ article{
     color:white
 }
 .grandLogo img{
-    width: 400px;
-    margin-top: 0ch;
-    padding-top: 0px;
+    width: 50%;
+   margin: auto;
    
 }
 .languagePhoto .petitLogoimg5{
-    width: 100px;
+    width: 70px;
 }
 .contact{
     color: rgb(0, 0, 0);
@@ -142,4 +145,50 @@ article .h22{
     display: flex;
     margin-top: 30px;
     /* align-items: center; */
+}
+article h2{
+    text-align: center;
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    .profil{
+        display: none;
+    }
+    .contenaire{
+        width: 100%;
+        background-image: url("img/WhatsApp\ Image\ 2022-11-21\ à\ 13.28.15.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: auto;
+       
+
+    }
+    article{
+        background-color: rgba(255, 255, 255, 0.281);
+        width: 90%;
+        margin: auto;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        background-color: black;
+    }
+    .grandLogo{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .languagePhoto img{
+        width: 50px;
+    }
+    .menu{
+        display: flex;
+        margin-right: 7%;
+    }
+    
+    
 }
